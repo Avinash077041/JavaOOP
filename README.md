@@ -1,5 +1,5 @@
 # JavaOOP
-//Singleton class,final and enum keyword.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//1.......Singleton class,final and enum keyword.@@@@
 
  class A{
 	private static A a=null;
@@ -21,7 +21,7 @@ class Avi{
 	}
 }
 
-//Second way of creating object  
+//2......Second way of creating object  
 
 class A{
 	 static A a=new A();     //2st way of creating object at loading time
@@ -48,7 +48,7 @@ class Avi{
 	}
 }
 
-//Early instantiation in singleton classes
+//3.....Early instantiation in singleton classes
 class A{
 	private static A obj=new A();
 	private A() {
@@ -76,8 +76,8 @@ class Avi{
 	}
 }
 
-//Lazy instantiation in singleton classes
- */
+//4.....Lazy instantiation in singleton classes
+
 class A{
 	private static A obj=null;
 	 private A() {
@@ -107,14 +107,7 @@ class Avi{
 		}
 	}
 }
-/*
-class A{
-	 void m1() {
-		System.out.println("I am from final method");
-	}
-}
-class b extends A{
-	final void m1() {
-		System.out.println("from m2 method"); 
-	}
-}
+
+
+
+
